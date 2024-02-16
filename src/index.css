@@ -1,0 +1,49 @@
+.nav{
+    background-color: rgb(44, 62, 80);
+}
+footer{
+    z-index: 99999999999999;
+}
+.active ,.main-color{
+    background-color: rgb(26, 188, 156);
+}
+a{
+    text-decoration: none !important;
+}
+li{
+    list-style: none;
+}
+.line{
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+.line2{
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    background-color:rgb(44, 62, 80);
+}
+.hgt{
+    height: 700px;
+}
+
+
+.layimg{
+    position: fixed;
+    top: 0;left: 0;right: 0;bottom: 0;
+    background-color:rgba(44, 62, 80, 0.493) ;
+    height: 110vh;
+    z-index: 66;
+}
+input{
+    border: none;
+    padding: 10px;
+    color: black !important;
+  
+}
+input:focus{
+    border: none;
+    color: gray;
+}
