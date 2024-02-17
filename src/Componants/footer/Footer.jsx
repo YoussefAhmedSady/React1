@@ -2,7 +2,7 @@ import React from 'react';
 import style from './footer.module.css'
 const Footer = () => {
     return <>
-    <footer className=' text-white py-5 nav'>
+    <footer className=' text-white py-5 nav '>
         <div className="container">
             <div className="row">
                 <div className="col-lg-4">

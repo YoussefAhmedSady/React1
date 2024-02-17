@@ -11,6 +11,7 @@ import Contact from './Componants/Contact/Contact';
 let routers=createBrowserRouter([
   {path:'',element:<Layout/> ,children:[
     {index:true,element:<Home/>},
+    {path:'React1/',element:<Home/>},
     {path:'About',element:<About/>},
     {path:'portofolio',element:<Portofolio/>},
     {path:'contact',element:<Contact/>},
