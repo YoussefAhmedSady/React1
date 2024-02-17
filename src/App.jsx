@@ -12,9 +12,9 @@ let routers=createBrowserRouter([
   {path:'',element:<Layout/> ,children:[
     {index:true,element:<Home/>},
     {path:'React1/',element:<Home/>},
-    {path:'About',element:<About/>},
-    {path:'portofolio',element:<Portofolio/>},
-    {path:'contact',element:<Contact/>},
+    {path:'React1/About',element:<About/>},
+    {path:'React1/portofolio',element:<Portofolio/>},
+    {path:'React1/contact',element:<Contact/>},
     {path:'*',element:<NotFound/>},
   
   ]}

@@ -14,13 +14,13 @@ const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto mb-2 mb-lg-0 ">
         <li className="nav-item">
-          <NavLink  className=" me-3 fs-5 text-light fw-bold p-2  rounded-3"   to={'about'}>About</NavLink>
+          <NavLink  className=" me-3 fs-5 text-light fw-bold p-2  rounded-3"   to={'React1/about'}>About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className=" me-3 fs-5 text-light fw-bold p-2 rounded-3" to={'portofolio'}>Portofolio</NavLink>
+          <NavLink className=" me-3 fs-5 text-light fw-bold p-2 rounded-3" to={'React1/portofolio'}>Portofolio</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className=" me-3 fs-5 text-light fw-bold p-2 rounded-3" to={'contact'}>Contact</NavLink>
+          <NavLink className=" me-3 fs-5 text-light fw-bold p-2 rounded-3" to={'React1/contact'}>Contact</NavLink>
         </li>
       
       </ul>
